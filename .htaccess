@@ -1,0 +1,6 @@
+# Habilitar o PHP 7.1
+AddType application/x-httpd-php71 .php
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
