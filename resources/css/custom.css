@@ -1,0 +1,77 @@
+.home_container {
+    position: relative;
+}
+
+.bg-main-color {
+    background-color: #32c69a;
+}
+
+.home {
+    margin-top: 131px;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.home_text_services {
+    font-size: 20px;
+    border: 0;
+    padding: 0 25px;
+    background-color: rgba(116,174,161,0.7);
+    color: white !important;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: normal;
+}
+
+.background_image {
+
+}
+
+.galleries {
+    background: #f4f8fb;
+}
+
+.services .icon_box_title {
+    padding-left: 0;
+}
+
+.services .icon_box_icon {
+    width: initial;
+    height: initial;
+}
+
+.services .icon_box_icon img {
+    width: 9em;
+    height: 9em;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header_nav_content {
+    height: 40px;
+}
+
+.footer {
+    background-image: url("/images/footer.jpg");
+}
+
+.card .event-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, .7);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    color: #FFF;
+    width: 60px;
+    height: 64px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.card .event-date small {
+    display: block;
+}
