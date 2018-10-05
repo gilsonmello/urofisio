@@ -75,3 +75,7 @@
 .card .event-date small {
     display: block;
 }
+
+.nav-pills .nav-link.active {
+    background-color: #268266;
+}

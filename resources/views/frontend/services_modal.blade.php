@@ -12,11 +12,11 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-4 col-12 col-sm-12">
                         <img class="img-fluid" src="{{$service['bg_image']}}" alt="">
                     </div>
 
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-md-8 col-12 col-sm-12">
                         <h4 class="text-dark">
                             {!! $service['description'] !!}
                         </h4>

@@ -20,7 +20,11 @@
                                 </div>--}}
                                 <div class="header_top_phone">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <span>713506-8940</span>
+                                    <span>(71) 3506-8940</span>
+                                </div>
+                                <div class="header_top_phone">
+                                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                    <span>(71) 98301-3550</span>
                                 </div>
                             </div>
                             <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>

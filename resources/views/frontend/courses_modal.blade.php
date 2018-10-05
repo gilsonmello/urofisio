@@ -12,7 +12,7 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-12 col-sm-8">
                         <div class="row">
                             <div class="col">
                                 <h4 class="text-dark">
@@ -22,15 +22,15 @@
                         </div>
                         <hr>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6 col-md-5 col-sm-6">
                                 <h5 class="text-dark">Data:</h5>
                             </div>
-                            <div class="col-lg-6 text-dark">
+                            <div class="col-lg-6 col-6 col-md-7 col-sm-6 text-dark">
                                 {!! $course['date'] !!}
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-12 col-sm-4">
                         <img class="img-fluid" src="{{$course['bg_image']}}" alt="">
                     </div>
                 </div>

@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <title>Health</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Health medical template project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ mix('css/main.css') }}">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- Regular Meta Info -->
+    <title>UROFISIO PRIME</title>
+    <!-- Facebook Meta Info -->
+    <meta property="og:url" content="{{request()->root()}}">
+    <meta property="og:image" content="/images/logo.png">
+    <meta property="og:description" content="UROFISIO PRIME">
+    <meta property="og:title" content="UROFISIO PRIME">
+    <meta property="og:site_name" content="UROFISIO PRIME">
+    <meta property="og:see_also" content="{{request()->root()}}">
+    <!-- Google+ Meta Info -->
+    <meta itemprop="name" content="UROFISIO PRIME">
+    <meta itemprop="description" content="UROFISIO PRIME">
+    <meta itemprop="image" content="/images/logo.png">
+    <!-- Twitter Meta Info -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{request()->root()}}">
+    <meta name="twitter:title" content="UROFISIO PRIME">
+    <meta name="twitter:description" content="UROFISIO PRIME">
+    <meta name="twitter:image" content="/images/logo.png">
 </head>
 <body>
 
@@ -94,7 +113,7 @@
                 @endphp
                 @foreach($services as $index => $service)
                     <!-- Icon Box -->
-                    <div class="col-xl-3 col-lg-3">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="icon_box mb-2">
                             <div class="icon_box_title_container d-flex flex-column align-items-center justify-content-start">
                                 <div class="icon_box_icon">
@@ -127,7 +146,7 @@
                 </div>
             </div>
             <br>
-            <div class="row mt-5">
+            <div class="row justify-content-center mt-5">
                 @php
                     $courses = [
                         [
@@ -157,8 +176,8 @@
                     ];
                 @endphp
                 @foreach($courses as $index => $course)
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card">
                             <div class="event-date">{!! $course['day'] !!}<small>{!! $course['month'] !!}</small></div>
                             <img class="card-img-top" src="{{$course['bg_image']}}" alt="">
                             <div class="card-body">
